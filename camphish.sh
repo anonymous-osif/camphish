@@ -1,10 +1,10 @@
 #!/bin/bash
+# CamPhish v1.0
+# Powered by TechChip
+# Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
+
 trap 'printf "\n";stop' 2
 
-printf "\n"
-
-
-trap 'printf "\n";stop' 2
 printf "\n"
 
 
@@ -267,4 +267,3 @@ checkfound
 banner
 dependencies
 camphish
-
