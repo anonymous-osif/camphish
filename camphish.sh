@@ -1,4 +1,8 @@
 #!/bin/bash
+trap 'printf "\n";stop' 2
+
+printf "\n"
+
 
 trap 'printf "\n";stop' 2
 printf "\n"
